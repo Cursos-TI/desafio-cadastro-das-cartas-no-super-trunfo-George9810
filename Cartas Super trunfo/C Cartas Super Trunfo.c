@@ -46,7 +46,7 @@ int main(){
     scanf  ("%f &o pib de brasilia e de 2,174 trilhões" );
 
     printf ("digete um ponto turistico de bradilia: " );
-    scanf  ("%d &o ponto turistico de brasilia e a catedral" );
+    scanf  ("%s &o ponto turistico de brasilia e a catedral" );
     
     
     return 0;
