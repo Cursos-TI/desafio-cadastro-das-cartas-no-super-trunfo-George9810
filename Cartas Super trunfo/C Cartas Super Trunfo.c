@@ -2,53 +2,57 @@
 
 int main(){
 
-    char  Samambaia[10];
-    int  Populacão;
+    char Samambaia[20];
+    int Populacao;
     float Área;
     float Pib;
-    int   Pontos;
+    int Pontos, turisticos;
 
     
+
+     printf ("digite o nome da cidade: \n");
+      scanf ("%d,&nome da cidade e  Samambaia"); 
+
+      printf ("digite a populacao da cidade: \n");
+      scanf  ("%d,&populacao de samambaia e de");
+
+      printf ("digite a área de samambaia em km²: \n");
+      scanf  ("%f,&área de samambaia e de km²");
+
+      printf ("digite o pib de samamabaia: \n");
+       scanf ("%f,&Pib de samamabaia e de");
+
+       
+      printf ("digite os pontos turisticos de samambaia e a: \n");
+       scanf ("%s,&os pontos turisticos e a igreja da barca");
+
+
+
+
+    char  Brasília[20];
+    int  Populacao;
+    float Área;
+    float Pib;
+    int  pontos, Turísticos;
+
+  
+
+    printf ("digite o nome da cidade: \n");
+    scanf  ("%d,&nome da cidade e Brasilia");
     
-    char  Brasília2[9];
-    int   Populacão2;
-    float Área2;
-    float Pib2;
-    int   Turísticos2;
+    printf ("digite a populacao da cidade: \n");
+    scanf  ("%d,&populacao da cidade e de");
+
+    printf ("digite uma área km²: \n");
+    scanf  ("%f,&area e de km²");
+
+    printf ("digite o pib de brasilia: \n");
+    scanf  ("%f,&pib de brasilia e de");
+
+    printf ("digete os pontos turisticos de brasilia: \n");
+    scanf  ("%s,&os pontos turisticos e a esplanada dos ministerios e catedral");
 
 
-    printf ("digite o nome da cidade ( 10 ): " );
-    scanf  ("%s ,&nome da cidade e  Samambaia ");
-
-    printf ("digite a populacão da cidade: " );
-    scanf  ("%d , &populacão e de 245 mil pessoas" );
-
-    printf ("digite a área em km²: " );
-    scanf  ("%f , &a área e de 102,6km² " );
-
-    printf ("digite o pib de samamabaia: " );
-    scanf  ("%f , o Pib de samamabaia e de 992,30 reais " );
-
-    printf ("digite os pontos turistico de samambaia e a: " );
-    scanf  ("%d, igreja da barca " );
-
-
-    printf ("digite o nome da cidade (09): " );
-    scanf  ("%s &nome da cidade e Brasilia" );
-    
-    printf ("digite a populacão da cidade: " );
-    scanf  ("%d &a populacão da cidade e 1 milhão de abitantes: " );
-
-    printf ("digite uma área km²: " );
-    scanf  ("%f &a area e de 5,761km² " );
-
-    printf ("digite o pib de brasilia: " );
-    scanf  ("%f &o pib de brasilia e de 2,174 trilhões" );
-
-    printf ("digete um ponto turistico de bradilia: " );
-    scanf  ("%s &o ponto turistico de brasilia e a catedral" );
-    
-    
     return 0;
 
 }
