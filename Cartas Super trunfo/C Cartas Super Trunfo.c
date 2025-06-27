@@ -2,55 +2,64 @@
 
 int main(){
 
-    char Samambaia[20];
-    int Populacao;
-    float Área;
-    float Pib;
-    int Pontos, turisticos;
+    char Nome1[50];
+    int Populacao1;
+    float Area1;
+    float Pib1;
+    char Pontos1[100];
 
-    
 
-     printf ("digite o nome da cidade: \n");
-      scanf ("%d,&nome da cidade e  Samambaia"); 
+    char Nome2[50];
+    int Populacao2;
+    float Area2;
+    float Pib2;
+    char Pontos2[100];
 
-      printf ("digite a populacao da cidade: \n");
-      scanf  ("%d,&populacao de samambaia e de");
+     printf ("digite o nome da cidade (carta1): ");
+      scanf ("%s", Nome1); 
 
-      printf ("digite a área de samambaia em km²: \n");
-      scanf  ("%f,&área de samambaia e de km²");
+      printf ("digite a populacao da cidade %s: ", Nome1);
+      scanf  ("%d", &Populacao1);
 
-      printf ("digite o pib de samamabaia: \n");
-       scanf ("%f,&Pib de samamabaia e de");
+      printf ("digite a Area de %s (km²): ", Nome1);
+      scanf  ("%f", &Area1);
+
+      printf ("digite o pib de %s: ", Nome1);
+       scanf ("%f", &Pib1);
 
        
-      printf ("digite os pontos turisticos de samambaia e a: \n");
-       scanf ("%s,&os pontos turisticos e a igreja da barca");
+      printf ("digite os pontos turisticos de %s (samambaia): ", Nome1);
+       scanf ("%s", Pontos1);
 
-
-
-
-    char  Brasília[20];
-    int  Populacao;
-    float Área;
-    float Pib;
-    int  pontos, Turísticos;
-
-  
-
-    printf ("digite o nome da cidade: \n");
-    scanf  ("%d,&nome da cidade e Brasilia");
+    printf ("digite o nome da cidade (carta2): ");
+    scanf  ("%s", Nome2);
     
-    printf ("digite a populacao da cidade: \n");
-    scanf  ("%d,&populacao da cidade e de");
+    printf ("digite a populacao da cidade %s: ", Nome2);
+    scanf  ("%d", &Populacao2);
 
-    printf ("digite uma área km²: \n");
-    scanf  ("%f,&area e de km²");
+    printf ("digite uma Area de %s(km²) ", Nome2);
+    scanf  ("%f", &Area2);
 
-    printf ("digite o pib de brasilia: \n");
-    scanf  ("%f,&pib de brasilia e de");
+    printf ("digite o pib de %s: ",Nome2);
+    scanf  ("%f", &Pib2);
 
-    printf ("digete os pontos turisticos de brasilia: \n");
-    scanf  ("%s,&os pontos turisticos e a esplanada dos ministerios e catedral");
+    printf ("digete os pontos turisticos %s (brasilia) ", Nome2);
+    scanf  ("%s", Pontos2);
+
+    printf ("\n--- carta 1 --- \n");
+    printf ("cidade: %s \n", Nome1);
+    printf ("populacao: %d \n", Populacao1);
+    printf ("Area: %.2f km² \n", Area1);
+    printf ("pib: %.2f \n", Pib1);
+    printf ("pontos turisticos: %s\n", Pontos1);
+
+    printf ("\n--- carta 2 --- \n");
+    printf ("cidade: %s \n", Nome2);
+    printf ("populacao: %d \n", Populacao2);
+    printf ("Area: %.2f km² \n", Area2);
+    printf ("pib: %.2f\n", Pib2);
+    printf ("pontos turisticos: %s\n", Pontos2);
+
 
 
     return 0;
